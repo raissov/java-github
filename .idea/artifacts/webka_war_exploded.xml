@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webka:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/webka_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webka" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="postgresql-42.2.13" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="webka/web/Web" />
+    </root>
+  </artifact>
+</component>
